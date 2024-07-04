@@ -37,7 +37,7 @@ app.use("/api/v1", payment);
 
 app.use("/api/v1", (req, res) => {
     res.send({
-        message: "Welcome to E-Shopify"
+        message: "Welcome to GameTech_Hub"
     })
 })
 
