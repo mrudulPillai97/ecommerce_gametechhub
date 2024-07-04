@@ -8,7 +8,7 @@
     "dev": "nodemon server.js",
     "build": "npm install --prefix ./frontend && npm run build --prefix ./frontend && npm install"
   },
-  "author": "Megh Savla",
+  "author": "Mrudul Pillai",
   "license": "ISC",
   "dependencies": {
     "bcryptjs": "^2.4.3",
