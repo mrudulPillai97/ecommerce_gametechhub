@@ -46,7 +46,7 @@ const Account = () => {
             <div className="col-span-1">
                 <img className="w-full p-6 object-contain rounded-full bg-white" src={person} alt="img" />
                 <Link to={"/account/profile/update"} className="flex items-center justify-center rounded shadow text-sm py-2 my-2 font-semibold bg-gray-50 hover:bg-gray-100 duration-150 ease-in-out">Update Profile</Link>
-                <Link to={"/account/password/update"} className="flex items-center justify-center rounded shadow text-sm py-2 my-2 font-semibold bg-cyan-400 text-white hover:bg-cyan-500 duration-150 ease-in-out">Update Password</Link>
+                <Link to={"/account/password/update"} className="flex items-center justify-center rounded shadow text-sm py-2 my-2 font-semibold bg-teal-400 text-white hover:bg-teal-500 duration-150 ease-in-out">Update Password</Link>
             </div>
             <div className="col-span-2">
                 <div className="flex items-center">

@@ -6,7 +6,7 @@ const Footer = () => {
     const [keyword, setKeyword] = useState("");
 
     return(
-        <div className="z-20 w-full bg-cyan-300 text-black">
+        <div className="z-20 w-full bg-teal-300 text-black">
             <div className="max-w-[1200px] sm:mx-auto py-8 px-2">
                 <div className="grid md:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-4">
                     <div className="col-span-1">

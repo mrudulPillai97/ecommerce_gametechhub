@@ -22,7 +22,7 @@ const Header = () => {
     }
 
     return(
-        <div className="z-20 w-full bg-cyan-300 text-gray-900 sticky top-0 left-0 shadow">
+        <div className="z-20 w-full bg-teal-300 text-gray-900 sticky top-0 left-0 shadow">
             <div className="sm:h-[10vh] h-[8vh] max-w-[1200px] m-auto flex items-center justify-between md:px-0 px-2">
                 <Link to={"/"} className="h-2/3"><img className="h-full object-cover" src={logo} alt="Brand Logo" /></Link>
                 <form onSubmit={handleSearch} className="md:flex flex-grow items-center justify-center hidden relative mx-12">
@@ -30,7 +30,7 @@ const Header = () => {
                     <IoSearchOutline onClick={handleSearch} className="absolute right-3 top-1/2 -translate-y-1/2 cursor-pointer" size={20} />
                 </form>
                 <div className="flex items-center justify-center">
-                    {!user && <Link to={"/login"} className="mx-4 cursor-pointer border border-black rounded shadow text-black px-4 py-1 bg-white hover:bg-cyan-500 transition duration-300">Login</Link>}
+                    {!user && <Link to={"/login"} className="mx-4 cursor-pointer border border-black rounded shadow text-black px-4 py-1 bg-white hover:bg-teal-500 transition duration-300">Login</Link>}
                     {user && <Link to={"/account/profile"} className="mx-4 cursor-pointer hover:scale-110"><IoPersonOutline size={26} /></Link>}
                     <Link to={"/cart"} className="mx-4 cursor-pointer hover:scale-110"><IoCartOutline size={26} /></Link>
                 </div>

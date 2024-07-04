@@ -79,10 +79,10 @@ const UpdateOrder = () => {
                                 <div className="flex items-center justify-between">
                                     <h2 className="text-xl font-semibold mb-2">Order Status</h2>
                                     <div className="flex items-center gap-2">
-                                        {order?.orderStatus !== "Delivered" && order?.orderStatus !== "Cancelled" && <button disabled={loading ? true : false} onClick={handleProcessOrder} type="submit" className="active:scale-95 rounded text-sm py-1 px-4 font-semibold bg-cyan-400 text-white hover:bg-cyan-500 duration-150 ease-in-out">
+                                        {order?.orderStatus !== "Delivered" && order?.orderStatus !== "Cancelled" && <button disabled={loading ? true : false} onClick={handleProcessOrder} type="submit" className="active:scale-95 rounded text-sm py-1 px-4 font-semibold bg-teal-400 text-white hover:bg-teal-500 duration-150 ease-in-out">
                                             {order?.orderStatus === "Processing" ? "Shipped?" : order?.orderStatus === "Shipped" ? "Delivered?" : "" }
                                         </button>}
-                                        {order?.orderStatus === "Processing" && <button disabled={loading ? true : false} onClick={handleCancelOrder} type="submit" className="active:scale-95 rounded text-sm py-1 px-4 font-semibold bg-cyan-400 text-white hover:bg-cyan-500 duration-150 ease-in-out">
+                                        {order?.orderStatus === "Processing" && <button disabled={loading ? true : false} onClick={handleCancelOrder} type="submit" className="active:scale-95 rounded text-sm py-1 px-4 font-semibold bg-teal-400 text-white hover:bg-teal-500 duration-150 ease-in-out">
                                             Cancel Order  
                                         </button>}
                                     </div>
@@ -100,7 +100,7 @@ const UpdateOrder = () => {
                             <div className="col-span-1 bg-gray-50 shadow p-4">
                                 <div className="flex items-center justify-between">
                                     <h2 className="text-xl font-semibold mb-2">Payment Details</h2>
-                                    {order?.paymentInfo?.status === "Not Paid" && <button disabled={loading ? true : false}  type="submit" className="rounded text-sm py-1 px-4 font-semibold bg-cyan-400 text-white hover:bg-cyan-500 duration-150 ease-in-out">
+                                    {order?.paymentInfo?.status === "Not Paid" && <button disabled={loading ? true : false}  type="submit" className="rounded text-sm py-1 px-4 font-semibold bg-teal-400 text-white hover:bg-teal-500 duration-150 ease-in-out">
                                             {order?.paymentInfo?.status === "Not Paid" ? "Paid?" : "" }
                                     </button>}
                                 </div>

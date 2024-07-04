@@ -108,7 +108,7 @@ const ProductDetails = () => {
                             </div>
 
                             <div className="w-full my-3">
-                                <button onClick={handleAddToCart} className="w-full rounded text-sm py-2 font-semibold bg-cyan-400 hover:bg-cyan-500 text-white duration-150 ease-in-out flex items-center justify-center gap-2">
+                                <button onClick={handleAddToCart} className="w-full rounded text-sm py-2 font-semibold bg-teal-400 hover:bg-teal-500 text-white duration-150 ease-in-out flex items-center justify-center gap-2">
                                     <IoCartOutline size={20} />
                                     <span>Add to Cart</span>
                                 </button>
@@ -152,7 +152,7 @@ const ProductDetails = () => {
                         }
                     </div>
                     {product.reviews && product.reviews.length > 8 ? <div className="my-3 grid place-items-center">
-                        <button type="submit" className="rounded text-sm px-4 py-2 font-semibold bg-cyan-400 text-white hover:bg-cyan-500 duration-150 ease-in-out flex items-center justify-center gap-2">
+                        <button type="submit" className="rounded text-sm px-4 py-2 font-semibold bg-teal-400 text-white hover:bg-teal-500 duration-150 ease-in-out flex items-center justify-center gap-2">
                             <span>Load More Reviews</span>
                         </button>
                     </div> : ""}

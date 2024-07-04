@@ -62,15 +62,15 @@ const Dashboard = () => {
             </div>
 
             <div className="grid grid-cols-3 gap-4 my-4 text-white">
-                <div className="py-6 shadow rounded-3xl text-center bg-gradient-to-r from-cyan-400 to-cyan-500">
+                <div className="py-6 shadow rounded-3xl text-center bg-gradient-to-r from-teal-400 to-teal-500">
                     <p className="text-md">Total Orders</p>
                     <h2 className="text-3xl font-bold">{ordersCount}</h2>
                 </div>
-                <div className="py-6 shadow rounded-3xl text-center bg-gradient-to-r from-cyan-500 to-cyan-500">
+                <div className="py-6 shadow rounded-3xl text-center bg-gradient-to-r from-teal-500 to-teal-500">
                     <p className="text-md">Total Users</p>
                     <h2 className="text-3xl font-bold">{usersCount}</h2>
                 </div>
-                <div className="py-6 shadow rounded-3xl text-center bg-gradient-to-r from-cyan-500 to-cyan-400">
+                <div className="py-6 shadow rounded-3xl text-center bg-gradient-to-r from-teal-500 to-teal-400">
                     <p className="text-md">Total Products</p>
                     <h2 className="text-3xl font-bold">{productsCount}</h2>
                 </div>

@@ -22,7 +22,7 @@ const DeleteModal = ({ title, message, isModalOpen, closeModal, id, handleDelete
                         <button onClick={closeModal} className="text-sm bg-gray-200 hover:bg-gray-300 text-gray-800 py-1 px-4 rounded mr-2">
                             Cancel
                         </button>
-                        <button onClick={handleConfirmDelete} className="text-sm bg-cyan-400 hover:bg-cyan-500 text-white py-1 px-4 rounded">
+                        <button onClick={handleConfirmDelete} className="text-sm bg-teal-400 hover:bg-teal-500 text-white py-1 px-4 rounded">
                             Delete
                         </button>
                     </div>

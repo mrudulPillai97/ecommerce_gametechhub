@@ -70,7 +70,7 @@ const OrderDetails = () => {
                             <div className="col-span-1 bg-gray-50 shadow p-4">
                                 <div className="flex items-center justify-between">
                                     <h2 className="text-xl font-semibold mb-2">Order Status</h2>
-                                    {order?.orderStatus === "Processing" && <button disabled={loading ? true : false} onClick={handleCancelOrder} type="submit" className="active:scale-95 rounded text-sm py-1 px-4 font-semibold bg-cyan-400 text-white hover:bg-cyan-500 duration-150 ease-in-out">
+                                    {order?.orderStatus === "Processing" && <button disabled={loading ? true : false} onClick={handleCancelOrder} type="submit" className="active:scale-95 rounded text-sm py-1 px-4 font-semibold bg-teal-400 text-white hover:bg-teal-500 duration-150 ease-in-out">
                                             Cancel Order  
                                     </button>}
                                 </div>

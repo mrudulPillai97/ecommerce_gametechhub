@@ -95,7 +95,7 @@ const CreateReview = () => {
                         </div>
 
                         <div onClick={handleSubmit} className="w-full my-3">
-                            <button disabled={loading ? true : false} type="submit" className="w-full rounded-md text-sm py-2 font-semibold bg-cyan-400 text-white hover:bg-cyan-500 duration-150 ease-in-out">{
+                            <button disabled={loading ? true : false} type="submit" className="w-full rounded-md text-sm py-2 font-semibold bg-teal-400 text-white hover:bg-teal-500 duration-150 ease-in-out">{
                                 loading ? <ImSpinner8 className="animate-spin mx-auto text-xl" /> : "Submit Review"
                             }</button>
                         </div>

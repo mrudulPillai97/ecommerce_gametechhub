@@ -52,14 +52,14 @@ const Login = () => {
                     <Link to={"/password/forgot"} className="text-gray-600 font-medium text-sm text-right cursor-pointer">Forgot Password?</Link>
                 </div>
                 <div className="w-full my-3">
-                    <button disabled={loading === true ? true : false} onClick={handleSubmit} type="submit" className="w-full rounded-md text-sm py-2 font-semibold bg-cyan-400 text-black hover:bg-cyan-500 duration-150 ease-in-out">{
+                    <button disabled={loading === true ? true : false} onClick={handleSubmit} type="submit" className="w-full rounded-md text-sm py-2 font-semibold bg-teal-400 text-black hover:bg-teal-500 duration-150 ease-in-out">{
                         loading === true ? <ImSpinner8 className="animate-spin mx-auto text-xl" /> : "Login"
                     }</button>
                 </div>
             </form>
             <p className="text-gray-600 font-medium text-sm text-center">OR</p>
             <div className="w-full my-2 text-center">
-                <p className="text-sm text-gray-600 font-medium">Not a member yet? <Link to={"/register"} className="text-cyan-500 cursor-pointer">Create an account</Link></p>
+                <p className="text-sm text-gray-600 font-medium">Not a member yet? <Link to={"/register"} className="text-teal-500 cursor-pointer">Create an account</Link></p>
             </div>
         </div>
     )

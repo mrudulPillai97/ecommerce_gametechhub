@@ -66,14 +66,14 @@ const Register = () => {
                 </div>
 
                 <div className="w-full my-3">
-                    <button disabled={loading ? true : false} onClick={handleSubmit} type="submit" className="w-full rounded-md text-sm py-2 font-semibold bg-cyan-400 text-black hover:bg-cyan-500 duration-150 ease-in-out">{
+                    <button disabled={loading ? true : false} onClick={handleSubmit} type="submit" className="w-full rounded-md text-sm py-2 font-semibold bg-teal-400 text-black hover:bg-teal-500 duration-150 ease-in-out">{
                         loading ? <ImSpinner8 className="animate-spin mx-auto text-xl" /> : "Register"
                     }</button>
                 </div>
             </form>
             <p className="text-gray-600 font-medium text-sm text-center">OR</p>
             <div className="w-full my-2 text-center">
-                <p className="text-sm text-gray-600 font-medium">Already a member? <Link to={"/login"} className="text-cyan-400">Login</Link></p>
+                <p className="text-sm text-gray-600 font-medium">Already a member? <Link to={"/login"} className="text-teal-400">Login</Link></p>
             </div>
         </div>
     )
