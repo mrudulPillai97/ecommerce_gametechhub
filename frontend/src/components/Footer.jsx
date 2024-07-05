@@ -28,16 +28,16 @@ const Footer = () => {
                     <div className="col-span-1">
                         <h2 className="text-xl font-semibold pb-2">Contact Us</h2>
                         <ul>
-                            <li className="leading-7">E-Shopify</li>
-                            <li className="leading-7">First Floor, Raghunath Complex, Mumbai 421305</li>
-                            <li className="leading-7"> - eshopify@gmail.com</li>
-                            <li className="leading-7"> - 9896585254(10:30 AM to 8:30 PM)</li>
+                            <li className="leading-7">GemTech Hub</li>
+                            <li className="leading-7">First Floor, R&D Complex, Bengaluru 560029</li>
+                            <li className="leading-7"> - gametechhub@gmail.com</li>
+                            <li className="leading-7"> - 9890032046(10:30 AM to 8:30 PM)</li>
                         </ul>
                     </div>
                 </div>
                 <div className="grid md:grid-cols-2 grid-cols-1 gap-6 mt-4">
                     <div className="col-span-1">
-                        <p className="text-sm text-black mt-4">Copyright &copy; 2024 E-Shopify</p>
+                        <p className="text-sm text-black mt-4">Copyright &copy; 2024 GameTech-Hub</p>
                     </div>
                     <div className="flex items-center md:justify-end col-span-1 gap-4">
                         <Link className="cursor-pointer hover:scale-110"><FaFacebook size={26} /></Link>
