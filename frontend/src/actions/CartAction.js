@@ -1,6 +1,6 @@
 import { ADD_TO_CART, REMOVE_FROM_CART, SAVE_SHIPPING_INFO } from "../constants/CartConstant";
 import axios from "axios";
-const baseUrl = "https://e-shopify-22tz.onrender.com";
+const baseUrl = "https://ecommerce-gametechhub.onrender.com";
 
 export const addToCart = (productId, quantity) => async (dispatch, getState) => {
     const { data } = await axios.get(`${baseUrl}/api/v1/product/${productId}`);

@@ -1,6 +1,6 @@
 import { ADMIN_CREATE_PRODUCT_FAIL, ADMIN_CREATE_PRODUCT_REQUEST, ADMIN_CREATE_PRODUCT_SUCCESS, ADMIN_DELETE_PRODUCT_FAIL, ADMIN_DELETE_PRODUCT_REQUEST, ADMIN_DELETE_PRODUCT_SUCCESS, ADMIN_PRODUCTS_FAIL, ADMIN_PRODUCTS_REQUEST, ADMIN_PRODUCTS_SUCCESS, ADMIN_UPDATE_PRODUCT_FAIL, ADMIN_UPDATE_PRODUCT_REQUEST, ADMIN_UPDATE_PRODUCT_SUCCESS, CLEAR_ERRORS, CREATE_REVIEW_FAIL, CREATE_REVIEW_REQUEST, CREATE_REVIEW_SUCCESS, PRODUCTS_FAIL, PRODUCTS_REQUEST, PRODUCTS_SUCCESS, PRODUCT_DETAILS_FAIL, PRODUCT_DETAILS_REQUEST, PRODUCT_DETAILS_SUCCESS } from "../constants/ProductConstant";
 import axios from "axios";
-const baseUrl = "https://e-shopify-22tz.onrender.com";
+const baseUrl = "https://ecommerce-gametechhub.onrender.com";
 
 export const getProducts = (search = "", sort = "", collection = "", page = 1) => async (dispatch) => {
     let url = `${baseUrl}/api/v1/products?page=${page}`;
